@@ -29,7 +29,7 @@ document.getElementById("Technology").onclick = function (event){
               <div class="card">
                 <div class="card-body">
                 <img src="${element["media"]}" onerror="this.onerror=null; this.src='imagenotfound.png'" width="28.5" height="auto padding: 10px; " class="card-img-top" alt="...">
-                <h5 class="card-title">${element["title"]} <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                <h5 class="card-title">${element["title"]} <span class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-danger">
                 ${element["twitter_account"]}
                 <span class="visually-hidden">unread messages</span>
               </span></h5>
@@ -77,7 +77,7 @@ document.getElementById("science").onclick = function (event){
               <div class="card">
                 <div class="card-body">
                 <img src="${element["media"]}" onerror="this.onerror=null; this.src='imagenotfound.png'" width="28.5" height="auto padding: 10px; " class="card-img-top" alt="...">
-                <h5 class="card-title">${element["title"]} <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                <h5 class="card-title">${element["title"]} <span class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-danger">
                 ${element["twitter_account"]}
                 <span class="visually-hidden">unread messages</span>
               </span></h5>
@@ -124,7 +124,7 @@ document.getElementById("business").onclick = function (event){
               <div class="card">
                 <div class="card-body">
                 <img src="${element["media"]}" onerror="this.onerror=null; this.src='imagenotfound.png'" width="28.5" height="auto padding: 10px; " class="card-img-top" alt="...">
-                <h5 class="card-title">${element["title"]} <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                <h5 class="card-title">${element["title"]} <span class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-danger">
                 ${element["twitter_account"]}
                 <span class="visually-hidden">unread messages</span>
               </span></h5>
@@ -171,7 +171,7 @@ document.getElementById("Sports").onclick = function (event){
               <div class="card">
                 <div class="card-body">
                 <img src="${element["media"]}" onerror="this.onerror=null; this.src='imagenotfound.png'" width="28.5" height="auto padding: 10px; " class="card-img-top" alt="...">
-                <h5 class="card-title">${element["title"]} <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                <h5 class="card-title">${element["title"]} <span class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-danger">
                 ${element["twitter_account"]}
                 <span class="visually-hidden">unread messages</span>
               </span></h5>
@@ -218,7 +218,7 @@ document.getElementById("entertainment").onclick = function (event){
               <div class="card">
                 <div class="card-body">
                 <img src="${element["media"]}" onerror="this.onerror=null; this.src='imagenotfound.png'" width="28.5" height="auto padding: 10px; " class="card-img-top" alt="...">
-                <h5 class="card-title">${element["title"]} <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                <h5 class="card-title">${element["title"]} <span class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-danger">
                 ${element["twitter_account"]}
                 <span class="visually-hidden">unread messages</span>
               </span></h5>
@@ -266,7 +266,7 @@ document.getElementById("health").onclick = function (event){
               <div class="card">
                 <div class="card-body">
                 <img src="${element["media"]}" onerror="this.onerror=null; this.src='imagenotfound.png'" width="28.5" height="auto padding: 10px; " class="card-img-top" alt="...">
-                <h5 class="card-title">${element["title"]} <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                <h5 class="card-title">${element["title"]} <span class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-danger">
                 ${element["twitter_account"]}
                 <span class="visually-hidden">unread messages</span>
               </span></h5>
@@ -308,15 +308,18 @@ xhr.onload = function () {
               <div class="card">
                 <div class="card-body">
                 <img src="${element["media"]}" onerror="this.onerror=null; this.src='imagenotfound.png'" width="28.5" height="auto padding: 10px; " class="card-img-top" alt="...">
-                <h5 class="card-title">${element["title"]} <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                <h5 class="card-title">${element["title"]}
+                <span class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-danger">
                 ${element["twitter_account"]}
                 <span class="visually-hidden">unread messages</span>
-              </span></h5>
+              </span> </h5>
                 <p class="card-text" style="overflow: hidden;
                 display: -webkit-box;
                 -webkit-line-clamp: 4;
-                -webkit-box-orient: vertical;">${element["summary"]}</p>
-                <p class="card-text" >${element["author"]} on ${element["published_date"]}</p>
+                -webkit-box-orient: vertical;">${element["summary"]}
+                </p>
+                <p class="card-text" >${element["author"]} on ${element["published_date"]}
+                </p>
                   <a href="${element["link"]}" target="_blank" class="btn btn-primary"><b>Read more here</b></a>
                 </div>
               </div>
@@ -363,7 +366,7 @@ document.getElementById("mybutton").onclick = function (event){
                       <div class="card">
                         <div class="card-body">
                         <img src="${element["media"]}" onerror="this.onerror=null; this.src='imagenotfound.png'" width="28.5" height="auto padding: 10px; " class="card-img-top" alt="...">
-                        <h5 class="card-title">${element["title"]} <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        <h5 class="card-title">${element["title"]} <span class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-danger">
                         ${element["twitter_account"]}
                         <span class="visually-hidden">unread messages</span>
                       </span></h5>
